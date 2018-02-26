@@ -6,6 +6,7 @@ import LoginPage from './containers/LoginPage';
 import FormPage from './containers/FormPage';
 import TablePage from './containers/TablePage';
 import Dashboard from './containers/DashboardPage';
+import Inbox from './components/form/Inbox';
 
 export default (
   <Route>
@@ -13,7 +14,9 @@ export default (
     <Route path="/" component={App}>
       <IndexRoute component={Dashboard}/>
       <Route path="dashboard" component={Dashboard}/>
-      <Route path="form" component={FormPage}/>
+      <Route path="form" component={FormPage}>
+        <Route path="inbox/:itemId" component={Inbox}/>
+      </Route>
       <Route path="table" component={TablePage}/>
       <Route path="*" component={NotFoundPage}/>
     </Route>

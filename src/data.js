@@ -62,7 +62,48 @@ const data = {
       {name: 'Firefox', value: 300, color: pink600, icon: <ChevronRight/>},
       {name: 'Safari', value: 300, color: purple600, icon: <ExpandLess/>}
     ]
-  }
+  },
+  formPage: {
+    clients: [
+      {id: 1, image: 'mun1.jpg', phone: '0123456789', status: 0, text: ''},
+      {id: 2, image: 'mun1.jpg', phone: '0123456789', status: 1, text: ''},
+      {id: 3, image: 'mun1.jpg', phone: '0123456789', status: 2, text: ''},
+      {id: 4, image: 'mun1.jpg', phone: '0123456789', status: 0, text: ''},
+      {id: 5, image: 'mun1.jpg', phone: '0123456789', status: 1, text: ''},
+      {id: 6, image: 'mun1.jpg', phone: '0123456789', status: 2, text: ''},
+      {id: 7, image: 'mun1.jpg', phone: '0123456789', status: 0, text: ''},
+      {id: 8, image: 'mun1.jpg', phone: '0123456789', status: 1, text: ''},
+      {id: 9, image: 'mun1.jpg', phone: '0123456789', status: 2, text: ''},
+      {id: 10, image: 'mun1.jpg', phone: '0123456789', status: 1, text: ''},
+      {id: 11, image: 'mun1.jpg', phone: '0123456789', status: 2, text: ''},
+    ],
+    chatText:[
+      {chat_id:1, client_id:1, text:'hello', created_at:'2018-26-02 15:19:51'},
+      {chat_id:1, user_id:1, text:'how are you', created_at:'2018-26-02 15:19:52'},
+      {chat_id:1, client_id:1, text:'im fine', created_at:'2018-26-02 15:19:50'},
+      {chat_id:1, user_id:1, text:'thank you', created_at:'2018-26-02 15:19:52'},
+      {chat_id:2, user_id:2, text:'hello', created_at:'2018-26-02 15:19:52'},
+      {chat_id:2, client_id:2, text:'hi', created_at:'2018-26-02 15:19:53'},
+      {chat_id:3, user_id:3, text:'hello', created_at:'2018-26-02 15:19:54'},
+      {chat_id:3, client_id:3, text:'hi', created_at:'2018-26-02 15:19:55'},
+      {chat_id:4, user_id:4, text:'hello', created_at:'2018-26-02 15:19:56'},
+      {chat_id:4, client_id:3, text:'hi', created_at:'2018-26-02 15:19:57'},
+      {chat_id:5, user_id:5, text:'hello', created_at:'2018-26-02 15:19:58'},
+      {chat_id:5, client_id:3, text:'hi', created_at:'2018-26-02 15:19:50'},
+      {chat_id:5, user_id:5, text:'hello', created_at:'2018-26-02 15:19:51'},
+    ],
+    options: [
+      {id: 1, name: 'Option 1'},
+      {id: 2, name: 'Option 2'},
+      {id: 3, name: 'Option 3'},
+      {id: 4, name: 'Option 4'},
+      {id: 5, name: 'Option 5'},
+      {id: 6, name: 'Option 6'},
+      {id: 7, name: 'Option 7'},
+      {id: 8, name: 'Option 8'},
+      {id: 9, name: 'Option 9'},      
+    ]
+  },
 };
 
 export default data;
