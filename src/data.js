@@ -78,9 +78,9 @@ const data = {
       {id: 11, image: 'mun1.jpg', phone: '0123456789', status: 2, text: ''},
     ],
     chatText:[
-      {chat_id:1, client_id:1, text:'hello', created_at:'2018-26-02 15:19:51'},
+      {chat_id:1, user_id:1, client_id:1, text:'hello', created_at:'2018-26-02 15:19:51'},
       {chat_id:1, user_id:1, text:'how are you', created_at:'2018-26-02 15:19:52'},
-      {chat_id:1, client_id:1, text:'im fine', created_at:'2018-26-02 15:19:50'},
+      {chat_id:1, user_id:1, client_id:1, text:'im fine', created_at:'2018-26-02 15:19:50'},
       {chat_id:1, user_id:1, text:'thank you', created_at:'2018-26-02 15:19:52'},
       {chat_id:2, user_id:2, text:'hello', created_at:'2018-26-02 15:19:52'},
       {chat_id:2, client_id:2, text:'hi', created_at:'2018-26-02 15:19:53'},

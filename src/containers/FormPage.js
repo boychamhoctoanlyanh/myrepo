@@ -2,14 +2,15 @@ import React from 'react';
 import PageBase from '../components/PageBase';
 import Data from '../data';
 import Clients from '../components/form/Clients';
-import Inbox from '../components/form/Inbox';
 import Options from '../components/form/Options';
+import { colors } from 'material-ui/styles';
 
 class FormPage extends React.Component {
-  render(){
-    return(
-    <PageBase title = "Form Page"
-      navigation = "Application / Form Page" >
+  render() {
+    console.log(this.props.children)
+    return (
+      <PageBase title="Form Page"
+        navigation="Application / Form Page" >
         <div className="row">
           <div className="col-xs-3">
             <Clients data={Data.formPage.clients} />
@@ -21,9 +22,9 @@ class FormPage extends React.Component {
             <Options data={Data.formPage.options} />
           </div>
         </div>
-    </PageBase>
-  );
-  };
-};
+      </PageBase>
+    );
+  }
+}
 
 export default FormPage;
